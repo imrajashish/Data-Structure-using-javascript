@@ -1,0 +1,9 @@
+function Circle(radius){
+    this.rad = radius;
+    this.draw = function(){
+        console.log("Enter")
+    }
+    console.log("hello",radius)
+}
+const circle = new Circle(2);
+console.log(circle);
