@@ -1,0 +1,31 @@
+
+x = ["ramesh","shyam","goldy"]
+x.pop()
+x.push("shohsn")
+x.shift()
+x.unshift("jdf")
+console.log(x.push("sjkds"))
+console.log(x)
+x[3] = "kdnfjwed"
+delete x[2];
+console.log(x)
+priv = ["roshan","dshbjd","djwsc","dwendcdi"]
+priv1 = ["wif","iwdnc","jd"];
+const c = [1,2,3,4,5]
+const baba = priv.concat(c,priv1);
+console.log(baba);
+
+const fruits = ["banana","Orange","Apple"] 
+fruits.splice(2,5,"lemon","kiwi");
+fruits.splice(0,1);
+console.log(fruits) 
+
+let cv = 9;
+let coih = 98;
+console.log(cv);
+
+var xs = 2;
+console.log(xs)
+
+const dd = ["banana","Orange","Apple"]; 
+console.log(dd.toString())
