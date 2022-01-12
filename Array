@@ -1,0 +1,7 @@
+let x = ["usd","jd","cjd"];
+x[0] = "df"
+x[1] = "2421"
+x[2] = "cew"
+x[5] = "fjfuhfh"
+x[4] = "cjuef"
+console.log(x)
