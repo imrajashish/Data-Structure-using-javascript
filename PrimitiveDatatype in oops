@@ -1,0 +1,16 @@
+let x = "rishav"
+let a = x
+console.log(a)
+console.log(x)
+
+x= "jdvn"
+console.log(x)
+console.log(a)
+
+let z = {id:1,name:"sdjc"}
+let c = z;
+console.log(z)
+console.log(c)
+z = {id:1,name:"kfhbf"}
+console.log(z);
+console.log(c);
