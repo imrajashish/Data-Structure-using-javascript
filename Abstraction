@@ -1,0 +1,15 @@
+//Abstraction means hide file
+// new = newobj create
+function Circle(radius){
+    this.rad = radius;
+    let.defaultLocation = {x:0,y:0}
+    let.computeOptimumLocation = function(factor){
+
+    }
+    this.draw = function(){
+        this.computeOptimumLocation(0,1)
+        console.log("draw")
+    }
+}
+const circle = Circle(10);
+console.log(circle)
