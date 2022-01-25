@@ -1,0 +1,5 @@
+const squre = (number) => number*number
+console.log(squre(12)
+
+//second ways
+const mult =() => return 4*3
