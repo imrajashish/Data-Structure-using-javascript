@@ -1,0 +1,68 @@
+const x =7;
+if(true){
+    const x=9;
+    console.log("khjbn ",x)
+}
+console.log(x)
+
+
+const obj ={
+    firstname : "ashish",
+    lastname :"Raj",
+    walk:function(){
+        console.log("fev",this)
+    }
+};
+let ab = obj.walk.bind(obj)
+console.log(ab())
+
+const squre = (number) => number*number
+console.log(squre(6));
+
+
+
+const person ={
+    firstname : "Ashish",
+    lastName :"raj",
+    walk:function(){
+        console.log(this.firstname)
+        setTimeout(function(){
+            console.log(this.firstname)
+        },1000)
+    }
+} 
+console.log(person.walk())
+
+// const person = {
+//     name :"Ashish",
+//     lastName:"raj",
+//     age:23
+// }
+// const firstname = person.firstname
+// const age = person.age
+// const {name:sa,lastName,age} = person;
+
+const arr1 = [1,23,44]
+const arr2 = [23,45,66]
+//const com = arr1.concat(arr2)
+const com =[...arr1,33,44,...arr2]
+console.log(com)
+ const arr3={
+     firstName :"Ashish",
+ }
+ const arr4 = {
+          lastName : "raj"
+
+ }
+ const comb = {...arr3,...arr4,loc:"miz"}
+ console.log(comb)
+
+class Person{
+    constructor(name){
+        this.firstname = name;
+    }
+    walk(){
+        console.log(this.firstname)
+    }
+}
+let rishav = new Person("rishav")   
