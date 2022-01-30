@@ -1,0 +1,8 @@
+class Person{
+    constructor(name){
+        this.firstName = name;
+    }
+    walk(){
+        console.log("inside the function",this.firstName)
+    }
+}
