@@ -1,0 +1,10 @@
+for(let r =1;r<=5;r++){
+    let str = " ";
+    for(let b=1;b<=(r-1);b++){
+        str += " "; 
+    } 
+    for(let s=1;s<=9-(2*r);s++){
+        str += "*"
+    }
+    console.log(str)
+}
